@@ -1,0 +1,329 @@
+body{
+    background-color: rgb(73, 73, 73);
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+}
+nav img{
+    width: 23px;
+    object-fit: contain;
+}
+nav .settings-icon{
+    margin-left: -1rem;
+}
+.qr-code-icon{
+    margin-right: -1rem;
+}
+.account-cont{
+    display: flex;
+    gap: 0.5rem;
+}
+.profile-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    height: 23px;
+    background-color: rgb(168, 138, 210);
+    border-radius: 2rem;
+    margin-top: 1.3rem;
+}
+.profile-circle p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;  
+    font-weight: bold; 
+    margin-top: 0.9rem;
+}
+nav h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+.main-balance{
+    display: flex;
+    justify-content: center;
+}
+.main-balance h1{
+    font-family: poppins;
+    font-size: 3.5rem;
+    color: white;
+    margin-top: 4rem;
+}
+.added-balance{
+    display: flex;
+    justify-content: center;
+    margin-top: -4rem;
+    gap: 0.4rem;
+}
+.added-balance h2{
+    font-family: poppins;
+    font-size: 1.3rem;
+    color: rgb(185, 185, 185);
+    margin-top: 1.12rem;
+}
+.balance-percent{
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(97, 96, 96);
+    border-radius: 0.8rem;
+    margin-top: 1.1rem;
+}
+.balance-percent h2{
+    margin-top: 0.23rem;
+    font-size: 1rem;
+}
+
+.exchange-methods{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.3rem;
+}
+.recieve-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 110px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.201);
+    border-radius: 0.8rem;
+    gap: 1.3rem;
+}
+.recieve-cont img{
+    width: 40px;
+    margin-top: 0.8rem;
+}
+.recieve-cont p{
+    color: grey;
+    font-family: poppins;
+    font-size: 0.8rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: -1rem;
+}
+.send-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 110px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.201);
+    border-radius: 0.8rem;
+    gap: 1.3rem;
+}
+.send-cont img{
+    width: 33px;
+    margin-top: 1.1rem;
+}
+.send-cont p{
+    color: grey;
+    font-family: poppins;
+    font-size: 0.8rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: -0.8rem;
+}
+
+.buy-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 110px;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.201);
+    border-radius: 0.8rem;
+    gap: 1.3rem;
+}
+.buy-cont img{
+    width: 40px;
+    margin-top: 0.8rem;
+}
+.buy-cont p{
+    color: grey;
+    font-family: poppins;
+    font-size: 0.8rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: -1rem;
+}
+.position-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.7rem;
+}
+.tip-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 345px;
+    height: 80px;
+    border-radius: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.201);
+    gap: 0.6rem;
+}
+.tip-cont h2{
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    margin-right: 1rem;
+}
+
+.short-line{
+    width: 50px;
+    height: 8px;
+    border-radius: 1rem;
+    background-color: rgb(168, 138, 210);
+    margin-top: -0.8rem;
+}
+
+.coins-position-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 0.5rem;
+}
+
+.solana-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 345px;
+    height: 80px;
+    border-radius: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.201);
+}
+.coin-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    border-radius: 2rem;
+    margin-top: 1.15rem;
+}
+.coin-circle h1{
+    color: #7d24aa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.coins-h2{
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+}
+.coins-h3{
+    color: rgb(185, 185, 185);
+    font-family: poppins;
+    margin-top: -1rem;
+}
+.div0{
+    display: flex;
+    gap: 0.8rem;
+    margin-left: -2.5rem;
+}
+ .div2{
+    margin-right: -2rem;
+}
+.Ethereum-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 345px;
+    height: 80px;
+    border-radius: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.201);
+}
+.Ethereum-cont .div0 .coin-circle{
+    background-color: white;
+    margin-left: 0.5rem;
+}
+.Ethereum-cont .div0 .coin-circle img{
+    width: 40px;
+}
+.Ethereum-cont .div0{
+    margin-left: -3rem;
+}
+.Ethereum-cont .div2{
+    margin-left: -2rem;
+}
+
+.Bitcoin-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 345px;
+    height: 80px;
+    border-radius: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.201);
+}
+.Bitcoin-cont .div0 .coin-circle{
+    background-color: rgb(255, 196, 0);
+}
+.Bitcoin-cont .div0 .coin-circle img{
+    width: 40px;
+}
+.Polygon-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 345px;
+    height: 80px;
+    border-radius: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.201);
+    /* margin-bottom: 8rem; */
+}
+.Polygon-cont .div0 .coin-circle{
+    background-color: rgb(141, 65, 235);
+}
+.Polygon-cont .div0 .coin-circle img{
+    width: 40px;
+}
+
+.space{
+    margin-bottom: 8rem;
+}
+
+.down-nav{
+    bottom:  0;
+}
+.selected{
+    width: 50px;
+    height: 4px;
+    background-color: #e6b5ff;
+    /* margin-left: -18.2rem; */
+    margin-top: -3.6rem;
+}
+.selected img{
+    margin-left: 0.4rem;
+    margin-top: 0.7rem;
+}
+.down-nav-icons-1{
+    width: 39px;
+}
+.down-nav-icons{
+    width: 25px;
+}

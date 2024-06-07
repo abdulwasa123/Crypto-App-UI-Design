@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(53, 52, 52);
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Regular.ttf);
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    background-color: rgb(73, 73, 73);
+    margin-bottom: 1.1rem;
+}
+.closeandsettings-cont{
+    display: flex;
+    gap: 1.2rem;  
+    margin-left: 1.1rem;
+    margin-top: 0.1rem;
+}
+.closeandsettings-cont img{
+    width: 19px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+h2{
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.position-cont-0{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.4rem;
+}
+.solana-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 345px;
+    height: 80px;
+    border-radius: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.201);
+}
+.profile-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+.profile-circle h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.account-h2{
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+}
+.account-h3{
+    color: rgb(185, 185, 185);
+    font-family: poppins;
+    font-weight: lighter;
+    margin-top: -1rem;
+}
+.div0{
+    display: flex;
+    gap: 0.8rem;
+    margin-left: -1.2rem;
+}
+.copy-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.392);
+    border-radius: 2rem;
+    margin-top: 1.3rem;
+    margin-left: 6rem;
+}
+.copy-circle img{
+    width: 23px;
+}
+
+.div-0-eth{
+    margin-left: -1rem;
+}
+.copy-circle-eth{
+    margin-left: 4rem;
+}
+
+.div-0-pol{
+    margin-left: -1rem;
+}
+.copy-circle-pol{
+    margin-left: 4rem;
+}
