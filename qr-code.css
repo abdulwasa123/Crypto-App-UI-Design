@@ -39,8 +39,6 @@ h2{
  .container {
     display: flex;
     justify-content: center;
-    width: 385px;
-    max-width: 500px;
     margin-top: 2rem;
 }
 
